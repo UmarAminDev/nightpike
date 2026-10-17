@@ -1,0 +1,6 @@
+@Nightpike.Api_HostAddress = http://localhost:5196
+
+GET {{Nightpike.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
