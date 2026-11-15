@@ -1,4 +1,5 @@
 from agent.parser import parse_line
+from agent.sender import send_event
 
 SAMPLE_LINES = [
     "2026-11-14T03:14:22-06:00 nightpike-vm sshd[2841]: Failed password for root from 45.83.64.12 port 51022 ssh2",
@@ -8,5 +9,11 @@ SAMPLE_LINES = [
 
 
 def main() -> None:
+    sent = 0
     for line in SAMPLE_LINES:
-        print(parse_line(line))
+        event = parse_line(line)
+        if event is None:
+            continue
+        if send_event(event):
+            sent += 1
+    print(f"Sent {sent} event(s) to the API.")
