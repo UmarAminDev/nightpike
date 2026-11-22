@@ -1,0 +1,9 @@
+2026-11-19T02:10:01-06:00 nightpike-vm CRON[1201]: pam_unix(cron:session): session opened for user root
+2026-11-19T02:14:22-06:00 nightpike-vm sshd[2841]: Failed password for root from 45.83.64.12 port 51022 ssh2
+2026-11-19T02:14:25-06:00 nightpike-vm sshd[2843]: Failed password for invalid user admin from 45.83.64.12 port 51040 ssh2
+2026-11-19T02:14:28-06:00 nightpike-vm sshd[2845]: Failed password for invalid user oracle from 45.83.64.12 port 51066 ssh2
+2026-11-19T02:14:31-06:00 nightpike-vm sshd[2847]: Failed password for invalid user test from 45.83.64.12 port 51090 ssh2
+2026-11-19T02:14:34-06:00 nightpike-vm sshd[2849]: Failed password for root from 45.83.64.12 port 51112 ssh2
+2026-11-19T07:45:12-06:00 nightpike-vm sshd[3001]: Failed password for umar from 24.72.10.5 port 60100 ssh2
+2026-11-19T07:45:20-06:00 nightpike-vm sshd[3003]: Accepted publickey for umar from 24.72.10.5 port 60104 ssh2
+2026-11-19T07:45:20-06:00 nightpike-vm sshd[3003]: pam_unix(sshd:session): session opened for user umar
